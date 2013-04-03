@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>AEGLO - Association des Étudiants en Génie Logiciel</title>
@@ -8,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link id='bootstrap' href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -17,6 +16,16 @@
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/konami.js"></script>
+    <script type="text/javascript">
+      var changeStyle = function() {
+          document.getElementById('bootstrap').href='css/geo.css';
+      }
+      var konami = new Konami(changeStyle);
+    </script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -31,8 +40,8 @@
   </head>
 
   <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <a href="https://github.com/aeglo/website"><img style="position: absolute; top: 40px; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -46,7 +55,6 @@
               <li><a href="#">Accueil</a></li>
               <li><a href="#representants">Représentants</a></li>
               <li><a href="files/charte2.1.pdf" target="_blank">Charte</a></li>
-              <li><a href="https://github.com/aeglo/website">GitHub-Source</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -54,20 +62,24 @@
       </div>
     </div>
 
-    <div class="container">
-
-      <div class="hero-unit">
+    <div class="jumbotron masthead">
+      <div class="container">
         <img src="img/AEGLOlogo.png" alt="Logo AEGLO"/>
         <p>Bienvenue sur le site officiel de l'AEGLO, votre association pour étudiants en Génie Logiciel. Vous trouverez ici les liens vers toutes les ressources importantes en lien avec le baccalauréat en Génie Logiciel à l'<a href="http://www.ulaval.ca/">Université Laval</a> ainsi que les événements, sorties, partys, etc.</p>
       </div>
+    </div>
+
+    <div class="container">
 
       <div class="row-fluid">
         <div class="span4 well fixed-height-triple">
+          <img src="img/fb.png"/>
           <h3>Groupe facebook</h3>
           <p>Rejoins le groupe facebook de l'AEGLO pour discuter avec les membres de l'association  et des anciens élèves du programmes.</p>
           <p><a class="btn btn-primary" href="https://www.facebook.com/groups/414072648646999/"><img src="img/fb-icon.png"/>  Rejoindre le groupe &raquo;</a></p>
         </div>
         <div class="span4 well fixed-height-triple">
+          <img src="img/link.png"/>
           <h3>Liens</h3>
           <p>
           <ul class="nav nav-tabs">
@@ -107,6 +119,7 @@
           </p>  
        </div>
         <div id="contact" class="span4 well fixed-height-triple">
+          <img src="img/location.png"/>
           <h3>Contact</h3>
           <address>Pavillon Adrien-Pouliot - <b>Local 3901</b><br>
           Université Laval, G1V 0A6 <br>
@@ -199,11 +212,7 @@
           </div>
         </div>
       </footer>
-
+      <div id="changStyle" class="well" href="javascript:changeStyle('geo')">Feeling old school ? <img src="img/konami.png"/></div>
     </div> 
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-
   </body>
 </html>
