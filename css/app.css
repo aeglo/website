@@ -20,6 +20,14 @@ body{
 	height: 250px;
 }
 
+.forkme{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  border: 0;
+  z-index: 2000;
+}
+
 @media (max-width: 480px){
  	.fixed-height-triple{
 		height: auto;
@@ -34,6 +42,10 @@ body{
 		font-size: 14px;
 	}
 
+  .forkme{
+    display: none;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 979px){
@@ -44,6 +56,13 @@ body{
 	.fixed-height-quad{
 		height: 300px;
 	}
+
+}
+
+@media (max-width: 979px){
+  .forkme{
+    display: none;
+  }
 }
 
 a{
