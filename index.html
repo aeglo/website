@@ -23,6 +23,23 @@
   var konami = new Konami(changeStyle);
   </script>
 
+  <script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+  <script src="js/langpack/en.js" charset="utf-8" type="text/javascript"></script>
+  <script type="text/javascript">
+    window.lang = new jquery_lang_js();
+    $().ready(function () {
+        window.lang.run();
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".dropdown-menu li a").click(function(){
+        var selText = $(this).text();
+        $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+      });
+    });
+  </script>
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -44,16 +61,26 @@
         <div class="nav-collapse collapse">
           <ul class="nav">
             <li>
-              <a href="#">Accueil</a>
+              <a lang='fr' href="#">Accueil</a>
             </li>
             <li>
-              <a href="#representants">Représentants</a>
+              <a lang='fr' href="#representants">Représentants</a>
             </li>
             <li>
-              <a href="files/charte2.1.pdf" target="_blank">Charte</a>
+              <a lang='fr' href="files/charte2.1.pdf" target="_blank">Charte</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a lang='fr' href="#contact">Contact</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                Langue
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#lang-en" onclick="window.lang.change('en');">English</a></li>
+                <li><a href="#lang-fr" onclick="window.lang.change('fr');">Français</a></li>
+              </ul>
             </li>
           </ul>
         </div>
