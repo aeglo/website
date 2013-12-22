@@ -3,4 +3,5 @@ jquery_lang_js.prototype.lang.en = {
     'Représentants':'Representatives',
     'Charte':'Charter',
     'Contact':'Contact',
+    'English':'Français'
 }
