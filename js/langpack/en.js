@@ -4,7 +4,7 @@ jquery_lang_js.prototype.lang.en = {
     'Charte':'Charter',
     'Contact':'Contact',
     'English':'Français',
-    'Bienvenue sur le site officiel de l\'AEGLO, votre association pour étudiants en Génie Logiciel. Vous trouverez ici les liens vers toutes les ressources importantes en lien avec le baccalauréat en Génie Logiciel à l\'<a href="http://www.ulaval.ca/">Université Laval</a> ainsi que les événements, sorties, partys, etc.':'Welcome on your software engineering association website. You will find here links to all the important informations on <a hreg="http://www.ulaval.ca/">Laval University</a> software engineering program. Also useful infomations on events, activities, partys, etc.',
+    'Bienvenue sur le site officiel de l\'AEGLO, votre association pour étudiants en Génie Logiciel. Vous trouverez ici les liens vers toutes les ressources importantes en lien avec le baccalauréat en Génie Logiciel à l\'<a href="http://www.ulaval.ca/">Université Laval</a> ainsi que les événements, sorties, partys, etc.':'Welcome to your software engineering association website. You will find here links to all the important informations about the <a hreg="http://www.ulaval.ca/">Université Laval</a> software engineering program. Also useful infomations on events, activities, parties, etc.',
     'Groupe Facebook':'Facebook Group',
     'Rejoins le groupe Facebook de l\'AEGLO pour discuter avec les membres de l\'association et des anciens élèves du programme.':'Join AEGLO Facebook group to discuss with association members and former program students.',
     ' Rejoindre le groupe »':' Join group »',
@@ -23,7 +23,6 @@ jquery_lang_js.prototype.lang.en = {
     'Jeux de Génie':'Engineering Games',
     'Gaming IFT-GLO - Groupe Facebook':'Gaming IFT-GLO - Facebook Group',
     'Faculté des sciences et de génie':'Faculty of Science and Engineering',
-    'Université Laval':'Laval University',
     'Nouveaux cours de science disponibles':'New available science classes',
     'Téléphone':'Phone',
     'Courriel':'Email',
@@ -38,9 +37,8 @@ jquery_lang_js.prototype.lang.en = {
     'Rep. aux activités sportives':'Rep. for sporting activities',
     'Rep. génie logiciel':'Software engineering Rep.',
     'Pour contacter tous les représentants :':'To contact all representatives at once :',
-    'Café gratuit pour tous les membres de l\'association. Passe au local de l\'AEGLO et prépare-toi un café gratuit!':'Free cofee for all association\'s members. Drop by AEGLO\'s room and be ready for a free cofee!',
-    'Soirées LAN organisées avec boissons et barres de chocolat gratuites. Partys et soirées avec consommations payées!':'LAN party with free soft drinks and chocolate bars. Partys and happy hours with free alcoholic beverages!',
+    'Café gratuit pour tous les membres de l\'association. Passe au local de l\'AEGLO et prépare-toi un café gratuit!':'Free cofee for all association\'s members. Drop by AEGLO\'s gathering room and be ready for a free cofee!',
+    'Soirées LAN organisées avec boissons et barres de chocolat gratuites. Partys et soirées avec consommations payées!':'LAN party with free soft drinks and chocolate bars. Parties and happy hours with free alcoholic beverages!',
     'L\'AEGLO fournit une bibliothèque avec une grande majorité des livres demandés dans les cours d\'informatique et génie logiciel.':'AEGLO provide a library containing most of the required books for software engineering and computer science classes.',
     'Partage avec nous tes projets de développement. Fais un pull-request sur <a href="https://github.com/aeglo">GitHub</a> ou envoie un message à <a href="mailto:aeglo@aeglo.ift.ulaval.ca">aeglo@aeglo.ift.ulaval.ca</a> pour devenir collaborateur et ajouter tes projets!':'Share with us your own developpement projects. Submit a pull-request on <a href="https://github.com/aeglo">GitHub</a> or send a message to <a href="mailto:aeglo@aeglo.ift.ulaval.ca">aeglo@aeglo.ift.ulaval.ca</a> to be a contributor and add your projects!',
-    'AEGLO - Université Laval':'AEGLO - Laval University'
 }
