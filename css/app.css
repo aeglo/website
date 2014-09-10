@@ -13,7 +13,7 @@ body{
 }
 
 .fixed-height-triple{
-	height: 500px; /*originally 460 w/o facebook link to initiation*/
+	height: 460px;
 }
 
 .fixed-height-quad{
