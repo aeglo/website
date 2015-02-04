@@ -4,12 +4,21 @@ body{
 	background-repeat: initial initial;
 }
 
+.sub_header {
+	color:gray;
+	font-style:italic;
+}
+
 .hero-unit {
 	padding: 0px;
 }
 
 .hero-unit p{
 	padding: 0px 70px 20px;
+}
+
+.fixed-height-triple-long{
+	height: 500px;
 }
 
 .fixed-height-triple{
@@ -29,6 +38,10 @@ body{
 }
 
 @media (max-width: 480px){
+	.fixed-height-triple-long{
+		height: auto;
+	}
+
  	.fixed-height-triple{
 		height: auto;
 	}
