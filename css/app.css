@@ -208,16 +208,16 @@ a:hover {
 ---------------------------------*/
 
 #groupInvestorsLogo {
-    display: block;
     max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.aSponsorMainPageBlock p {
-    text-align: center;
 }
 
 .aSponsorMainPageBlock {
-    /*width: auto;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#DavidCaumartinFrontPageImage {
+    max-width: 100px;
 }
