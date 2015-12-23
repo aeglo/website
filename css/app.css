@@ -1,223 +1,195 @@
-body {
-    background-image: url(../img/bg.png);
-    background-position: initial initial;
-    background-repeat: initial initial;
+body{
+	background-image: url(../img/bg.png);
+	background-position: initial initial;
+	background-repeat: initial initial;
 }
 
 .sub_header {
-    color: gray;
-    font-style: italic;
+	color:gray;
+	font-style:italic;
 }
 
 .hero-unit {
-    padding: 0px;
+	padding: 0px;
 }
 
-.hero-unit p {
-    padding: 0px 70px 20px;
+.hero-unit p{
+	padding: 0px 70px 20px;
 }
 
-.fixed-height-triple-long {
-    height: 500px;
+.fixed-height-triple-long{
+	height: 500px;
 }
 
-.fixed-height-triple {
-    height: 460px;
+.fixed-height-triple{
+	height: 460px;
 }
 
-.fixed-height-quad {
-    height: 275px;
+.fixed-height-quad{
+	height: 275px;
 }
 
-.forkme {
-    position: absolute;
-    top: 0px;
-    right: 0;
-    border: 0;
-    z-index: 2000;
+.forkme{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  border: 0;
+  z-index: 2000;
 }
 
-@media (max-width: 480px) {
-    .fixed-height-triple-long {
-        height: auto;
-    }
-    .fixed-height-triple {
-        height: auto;
-    }
-    .fixed-height-quad {
-        height: auto;
-    }
-    .hero-unit p {
-        padding: 0px 5px 5px;
-        font-size: 14px;
-    }
-    .forkme {
-        display: none;
-    }
+@media (max-width: 480px){
+	.fixed-height-triple-long{
+		height: auto;
+	}
+
+ 	.fixed-height-triple{
+		height: auto;
+	}
+
+	.fixed-height-quad{
+		height: auto;
+	}
+
+	.hero-unit p{
+		padding: 0px 5px 5px;
+		font-size: 14px;
+	}
+
+  .forkme{
+    display: none;
+  }
+
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
-    .fixed-height-triple {
-        height: 500px;
-    }
-    .fixed-height-quad {
-        height: 330px;
-    }
+@media (min-width: 768px) and (max-width: 979px){
+ 	.fixed-height-triple{
+		height: 500px;
+	}
+
+	.fixed-height-quad{
+		height: 330px;
+	}
+
 }
 
-@media (max-width: 979px) {
-    .forkme {
-        display: none;
-    }
+@media (max-width: 979px){
+  .forkme{
+    display: none;
+  }
 }
 
-a {
-    color: red;
+a{
+	color: red;
 }
 
-a:hover {
-    color: #FFB300;
+a:hover{
+	color: #FFB300;
 }
 
-.centered {
-    display: block;
+.centered{
+	display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.justified {
-    text-align: justify;
+.justified{
+	text-align: justify;
 }
 
-#rep_table {
-    overflow-x: auto;
+#rep_table{
+	overflow-x: auto;
 }
 
-@media (max-width: 767px) [class*="span"],
-.row-fluid [class*="span"] {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: auto;
-    !important;
+@media (max-width: 767px)
+[class*="span"], .row-fluid [class*="span"] {
+	display: block;
+	float: none;
+	width: 100%;
+	margin-left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: auto; !important;
 }
-
 
 /* Jumbotrons
 -------------------------------------------------- */
 
-
 /* Base class
 ------------------------- */
-
 .jumbotron {
-    position: relative;
-    padding: 40px 0;
-    text-align: center;
+  position: relative;
+  padding: 40px 0;
+  text-align: center;
 }
-
 .jumbotron h1 {
-    font-size: 80px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
 }
-
 .jumbotron p {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.25;
-    margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 30px;
 }
-
 
 /* Link styles (used on .masthead-links as well) */
-
 .jumbotron a {
-    color: #bf0000;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+  color: #bf0000;
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
 }
-
 .jumbotron a:hover {
-    color: #bfa100;
-    text-decoration: none;
-    text-shadow: 0 0 10px rgba(255, 255, 255, .25);
+  color: #bfa100;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(255,255,255,.25);
 }
-
 
 /* Download button */
-
 .masthead .btn {
-    padding: 19px 24px;
-    font-size: 24px;
-    font-weight: 200;
-    color: #fff;
-    /* redeclare to override the `.jumbotron a` */
-    border: 0;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 5px rgba(0, 0, 0, .25);
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 5px rgba(0, 0, 0, .25);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 5px rgba(0, 0, 0, .25);
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;
+  padding: 19px 24px;
+  font-size: 24px;
+  font-weight: 200;
+  color: #fff; /* redeclare to override the `.jumbotron a` */
+  border: 0;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+  -webkit-transition: none;
+     -moz-transition: none;
+          transition: none;
 }
-
 .masthead .btn:hover {
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 5px rgba(0, 0, 0, .25);
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 5px rgba(0, 0, 0, .25);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 5px rgba(0, 0, 0, .25);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
 }
-
 .masthead .btn:active {
-    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .1);
-    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .1);
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, .1);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
+     -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
+          box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
 }
 
 
 /* Pattern overlay
 ------------------------- */
-
 .jumbotron .container {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
-
 .jumbotron:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: .4;
-}
-
-
-/*Specific
----------------------------------*/
-
-#groupInvestorsLogo {
-    display: block;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.aSponsorMainPageBlock p {
-    text-align: center;
-}
-
-.aSponsorMainPageBlock {
-    /*width: auto;*/
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .4;
 }
