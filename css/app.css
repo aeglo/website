@@ -49,6 +49,10 @@ body {
     width: 100px;
 }
 
+.dashthis-logo {
+    width: 300px;
+}
+
 @media (max-width: 480px) {
     .fixed-height-triple-long {
         height: auto;
