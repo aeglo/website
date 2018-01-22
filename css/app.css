@@ -37,6 +37,18 @@ body {
     z-index: 2000;
 }
 
+.aeglogo {
+    padding: 10px;
+}
+.aeglogo-icon-small {
+    width: 25px;
+    padding-bottom: 5px;
+}
+
+.aeglo-icon-medium {
+    width: 100px;
+}
+
 @media (max-width: 480px) {
     .fixed-height-triple-long {
         height: auto;
