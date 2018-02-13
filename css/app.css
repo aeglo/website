@@ -37,6 +37,23 @@ body {
     z-index: 2000;
 }
 
+.aeglogo {
+    margin: 20px;
+    max-width: 75%;
+}
+.aeglogo-icon-small {
+    width: 25px;
+    padding-bottom: 5px;
+}
+
+.aeglo-icon-medium {
+    width: 100px;
+}
+
+.dashthis-logo {
+    width: 300px;
+}
+
 @media (max-width: 480px) {
     .fixed-height-triple-long {
         height: auto;
