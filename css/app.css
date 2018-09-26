@@ -38,7 +38,8 @@ body {
 }
 
 .aeglogo {
-    padding: 10px;
+    margin: 20px;
+    max-width: 75%;
 }
 .aeglogo-icon-small {
     width: 25px;
