@@ -50,8 +50,9 @@ body {
     width: 100px;
 }
 
-.dashthis-logo {
-    width: 300px;
+.argent-plus-logo {
+    max-width: 300px;
+    max-height: 100px;
 }
 
 @media (max-width: 480px) {
